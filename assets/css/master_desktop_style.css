@@ -1,0 +1,462 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.covid-link{
+	text-decoration: none;
+	color: white;
+}
+.covid-link:hover{
+	text-decoration: underline;
+	color: white;
+}
+@media only screen and (max-width: 1910px){
+	.border-layer{
+		background: #35569b;
+		padding-top: 0.4rem;
+	}
+	.top-layer{
+		background: #35569b;
+		color: white;
+		padding-top: 0.6rem;
+		padding-bottom: 0.6rem;
+		font-size: 0.9rem;
+	}
+	.img-logo{
+		padding-top: 2.2rem;
+		padding-bottom: 1.5rem;
+		width: 5rem;
+	}
+	.nav-item, .nav-link{
+		padding-top: 1.2rem;
+		padding-bottom: 1rem;
+		padding-left: 2.2rem;
+		padding-right: 2.2rem;		
+		color: red;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 500;
+		color: red;
+		font-size: 1rem;
+	}
+	.menu-link{
+		font-family: 'Ubuntu', sans-serif;
+		text-transform: uppercase;
+		padding-top: 0.3rem;
+		line-height: 1rem;
+		color: #315399;
+	}
+	.menu-link .top{
+		font-size: 1.2rem;
+	}
+	.menu-link .bottom{
+		font-size: 1rem;
+		font-weight: 300;
+	}
+	.background-class{
+		height: 496px;
+		background: rgb(0,121,192);
+		background: linear-gradient(356deg, rgba(0,121,192,1) 0%, rgba(23,146,213,1) 100%);
+	}
+	.wall-top-text{
+		font-family: 'Raleway', sans-serif;
+		font-weight: 200;
+		color: white;
+		font-size: 2.8rem;
+		padding-left: 2rem;
+		padding-right: 10rem;
+		line-height: 2.5rem;
+		padding-top: 8rem; 
+	}
+	.wall-bottom-text{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 500;
+		color: white;
+		font-size: 1.3rem;
+		padding-left: 2rem;
+		padding-right: 10rem;
+		padding-top: 5rem;	
+	}
+	.custom-button-gen{
+		border: 2px solid white;
+		color: white;
+		background: transparent;
+		margin-right: 10rem;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 500;
+		text-transform: uppercase;
+		margin-top: 3rem;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+	.custom-button-gen:hover{
+		background: white;
+		color: #315399;
+	}
+	.normal-text{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: #623333;
+		font-size: 1.25rem;
+	}
+	.background-class-2{
+		background: #d4eae4;
+	}
+	.padded-box{
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+		padding-left: 8rem;
+		padding-right: 8rem;
+	}
+	.topic-text{
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 500;
+		font-size: 1.8rem;
+		padding-bottom: 2rem;
+		color: black;
+	}
+	.colour-background-2{
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		padding-left: 8rem;
+		padding-right: 8rem;
+		background: rgb(0,121,192);
+		background: linear-gradient(356deg, rgba(0,121,192,1) 0%, rgba(23,146,213,1) 100%);
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: white;
+		font-size: 1.25rem;
+	}
+	.img-testimonial{
+		width: 10rem;
+	}
+	.testimonial-person{
+		padding-top: 2rem;
+		text-transform: uppercase;
+		font-weight: 500;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 1.2rem;
+	}
+	.testimonial-occupation{
+		color: gray;
+		font-weight: 400;
+		font-family: 'Roboto', sans-serif;
+		font-size:0.9em;
+	}
+	.testimonial-message{
+		padding-top: 2rem;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		color: #623333;
+		font-size: 1.25rem;
+	}
+	.footnote{
+		font-size: 0.8rem;
+	}
+	.footer-link{
+		padding-left: 1rem;
+		padding-right: 1rem;
+		text-decoration: none;
+		color: black;
+		font-weight: 500;
+	}
+	.social-link{
+		color: black;
+		padding-right: 1rem;
+		font-size: 2.2rem;
+	}
+	.general-padded{
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		padding-left: 2rem;
+	}
+	.title-text{
+		font-weight: 500;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 2rem;
+	}
+	.content-text{
+		padding-top: 2rem;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		font-size: 1.5rem;
+	}
+	.general-padded-coloured{
+		background: #d4eae4;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		padding-left: 2rem;
+	}
+	.heading-text{
+		font-weight: 300;
+		font-family: 'Roboto', sans-serif;
+		font-size: 2.5rem;
+	}
+	.course-frame{
+		padding-top: 1.2rem;
+	}
+	.course-panel{
+		background: white;
+		margin-top: 2rem;
+		padding-top: 1.5rem;
+		padding-left: 1.2rem;
+		padding-right: 1.2rem;
+		padding-bottom: 1.5rem;
+	}
+	.stream-title{
+		text-transform: uppercase;
+		font-size: 1.2rem;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 500;
+	}
+	.stream-course{
+		margin-top: 2rem;
+	}
+	.stream-course-list{
+		padding-bottom: 0.5rem;
+	}
+	.stream-course-list a{
+		text-decoration: none;
+		color: black;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 300;
+		padding: 0.4rem;
+		padding-right: 1rem;
+		display: block;
+	}
+	.stream-course-list a:hover{
+		background: #35569b;
+		color: white;
+		border-radius: 4px;
+	}
+	.custom-button-gen-inv{
+		border: 2px solid #315399;
+		color: #315399;
+		background: transparent;
+		margin-right: 10rem;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 500;
+		text-transform: uppercase;
+		margin-top: 3rem;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+	.custom-button-gen-inv:hover{
+		background: #315399;
+		color: white;
+	}
+	.box{
+	 -webkit-clip-path:polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
+	 clip-path:polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+	 width:25rem;
+	 height:22rem;
+	 padding-top: 3rem;
+	 padding-bottom: 1rem;
+	 padding-left: 2rem;
+	 margin-left: 2rem;
+	 padding-right: 2rem;
+	 background:#AE191E;
+	}
+	.side-image{
+		margin-top: 13.6rem;
+		margin-left: 10rem;
+		opacity: 1;
+		width: 10rem;
+	}
+	.title-box{
+		position: absolute;
+		padding: 0.2rem;
+		padding-left: 1rem;
+		padding-right: 2rem;
+		border-radius: 5px;
+		color: white;
+		font-size: 1.3rem;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 500;
+		text-transform: capitalize;
+	}
+	.content-box{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		color: white;
+		padding: 1rem;
+		margin-top: 2.5rem;
+	}
+	.course-info-panel .course{
+		font-size: 3rem;
+		line-height: 3.2rem;
+		font-weight: 200;
+		font-family: 'Raleway', sans-serif;
+	}
+	.course-content table{
+		margin-top: 2rem;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 300;
+	}
+	.course-content table .heading{
+		font-weight: 500;
+		width: 6rem;
+	}
+	/* Style the buttons that are used to open and close the accordion panel */
+	.accordion{
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 1rem;
+		background-color: #eee;
+	    color: #444;
+	    cursor: pointer;
+	    padding: 18px;
+	    width: 100%;
+	    text-align: left;
+	    border: none;
+	    outline: none;
+	    border-bottom: 2px solid white;
+	    transition: 0.4s;
+	}
+
+	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+	.active-x, .accordion:hover {
+	    background-color: #ccc;
+	}
+
+	/* Style the accordion panel. Note: hidden by default */
+	.panel-x {
+	   padding: 0 18px;
+	   background-color: #f9f9f9;
+	   display: none;
+	   line-height: 1.8rem;
+	   overflow: hidden;
+	}
+	.panel-x .in-para{
+		font-family: 'RobUbuoto', sans-serif;
+		font-weight: 400;
+		font-size: 1.1rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	.course-accordion{
+	   padding-top: 3rem;
+	}
+	/*#duration-place{
+		padding-top: 1rem;
+	}*/
+	.custom-button-gen-2{
+		border: 2px solid #315399;
+		color: white;
+		background: #315399;
+		margin-right: 10rem;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 500;
+		text-transform: uppercase;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+	.custom-button-gen-2:hover{
+		background: white;
+		color: #315399;
+	}
+	.side-text{
+		color: white;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 200;
+		line-height: 1.6rem;
+		padding-top: 3rem;
+		padding-left: 3rem;
+		padding-right: 2.8rem;
+		padding-bottom: 2rem;
+	}
+	.side-background{
+		margin-top: 2rem;
+		background: rgb(19,106,138);
+		background: linear-gradient(351deg, rgba(19,106,138,1) 0%, rgba(38,120,113,1) 100%);
+		/*background: rgb(163,43,60);
+		background: linear-gradient(356deg, rgba(163,43,60,1) 0%, rgba(216,86,104,1) 100%);*/
+		width: 90%
+	}
+	.image-box-side-img{
+		width: 15rem;
+	}
+	.w-button-container{
+		padding-top: 2rem;
+	}
+	.register-topic{
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 300;
+		font-size: 1.8rem;
+		padding-bottom: 2rem;
+	}
+	.w-custom-control{
+		border-radius: 0px;
+	}
+	.big-text{
+		font-family: 'Raleway', sans-serif;
+		font-weight: 200;
+		font-size: 3rem;
+		color: #315399;
+		padding-top: 7rem;
+		padding-bottom: 0.2rem;
+	}
+	.small-text{
+		font-family: 'Roboto', sans-serif;
+		font-weight: 500;
+		font-size: 1rem;
+		color: gray;
+		padding-bottom: 1rem;	
+	}
+	.help-wrapper{
+		margin-top: 4rem;
+		margin-bottom: 4rem;
+	}
+	.custom-button-help{
+		background: rgb(65,65,65);
+		background: linear-gradient(85deg, rgba(65,65,65,1) 0%, rgba(0,0,0,1) 100%);
+		color: white;
+		font-weight: 500;
+		padding: 0rem;
+		padding-top: 0.8rem;
+		padding-bottom: 0.8rem;
+		padding-right: 0.15rem;
+		border-radius: 40px;
+	}
+	.help-text{
+		padding: 1rem;
+	}
+	.number-text{
+		font-family: 'Ubuntu', sans-serif;
+		border-radius: 0px 40px 40px 0px;
+		background: white;
+		color: black;
+		padding-right: 0.8rem;
+		padding-top: 0.8rem;
+		padding-bottom: 0.9rem;
+		padding-left: 0.8rem;
+	}
+	.custom-button-help:hover{
+		color: yellow;
+	}
+	.banking-topic{
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 500;
+		font-size: 1.2rem;
+		padding-top: 1.5rem;
+		padding-bottom: 1rem;
+		padding-left: 1.2rem;
+	}
+	.banking-note{
+		padding-left: 1.2rem;
+		font-weight: 300;
+	}
+	.banking-table{
+		margin-left: 1.2rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+	.coloured-box{
+		background: #f3f3f3;
+	}
+	.banking-box{
+		margin-left: 0.1rem;
+		margin-top: 5.1rem;
+	}
+}
